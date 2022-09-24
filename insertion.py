@@ -9,4 +9,4 @@ def insertionSort(arr):
   print(arr)
   
   
-insertionSort([6,5,1,3])
+insertionSort([6,5,1,3,7])
