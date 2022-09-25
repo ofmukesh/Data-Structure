@@ -1,4 +1,4 @@
-def selectionBubbleSort(arr):
+def selectionSort(arr):
   for i in range(len(arr)):
       minn=arr[i]
       mini=0
@@ -9,4 +9,4 @@ def selectionBubbleSort(arr):
       arr[mini]=arr[i]
       arr[i]=minn
   print(arr)
-selectionBubbleSort([3,2,1])
+selectionSort([3,2,1])
